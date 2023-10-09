@@ -2,7 +2,7 @@
 
 This project was an attempt to get bounding box from image without training
 using orb with sample images. The idea is that with a small number of samples of searched
-object it is possible to create ok-ish bounding box with simillar features using ORB.  For example, in this case banana dataset was
+object it is possible to create ok-ish bounding box with simillar features using [ORB](https://github.com/orb-community/orb).  For example, in this case banana dataset was
 used. To create bounding boxes user must set a number of images from specified directory
 in a `range()`-like manner. Then specifie the number of images where the images in which 
 to create bounding boxes. Then use `.fit` method to creat keypoints and Hamming distances
